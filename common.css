@@ -1,0 +1,25 @@
+#container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #fc5c65;
+}
+
+.icon {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    cursor: pointer;
+    stroke: #FFFFFF;
+    opacity: .95;
+}
